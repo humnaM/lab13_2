@@ -27,7 +27,9 @@ class assemble: public Workshop{
 		
 	
 };
-
+class struct
+	
+	var =0;
 class Vehicle{
 	public:
 		produce pro;
