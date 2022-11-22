@@ -4,9 +4,9 @@ using namespace std;
 
 
 class Workshop{
-	public:
+	public:                              //hello
 		virtual void getWorkshop(){
-			cout<<"hello i am workshop"<<endl;
+			cout<<"hello i am workshop"<<endl; //printing
 		}
 	
 };
@@ -14,7 +14,7 @@ class Workshop{
 class produce: public Workshop{
 	public:
 		void getWorkshop(){
-			cout<<"hello i am workshop"<<endl;
+			cout<<"hello i am workshop"<<endl;  //printing
 		}
 		
 };
@@ -22,7 +22,7 @@ class produce: public Workshop{
 class assemble: public Workshop{
 	public:
 		void getWorkshop(){
-			cout<<"hello i am workshop"<<endl;
+			cout<<"hello i am workshop"<<endl;   printing
 		}
 		
 	
@@ -32,10 +32,10 @@ class struct
 	var =0;
 class Vehicle{
 	public:
-		produce pro;
-		assemble assem;
-		virtual void getVehicle(){
-			cout<<"hello i am vehicle"<<endl;
+		produce _pro;
+		assemble _assem;
+		virtual void getVehicle(){          getting vehicle
+			cout<<"hello i am vehicle"<<endl; printing
 		}
 		
 	
@@ -44,7 +44,7 @@ class Vehicle{
 
 class bike: public Vehicle{
 	public:
-		void getVehicle(){
+		void _getVehicle(){
 			cout<<"hello i am vehicle"<<endl;
 		}
 };
